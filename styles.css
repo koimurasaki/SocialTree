@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background: var(--body-bg-color);
+}
+
+.container {
+  max-width: 350px;
+  margin-left: 0 auto;
+  text-align: center;
+
+  color: var(--purple);
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+
+  border: 2px solid var(--purple);
+  padding: 0.3rem;
+}
+
+a {
+  color: var(--purple);
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.userGithubLink {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+
+
+.link1 {
+  font-weight: bold;
+  list-style: none;
+  border: 2px solid var(--purple);
+  border-radius: 0.2rem;
+  padding: 1rem 8rem;
+  margin-bottom: 1.5rem;
+}
+
+.link2 {
+  font-weight: bold;
+  list-style: none;
+  border: 2px solid var(--purple);
+  border-radius: 0.2rem;
+  padding: 1rem 8rem;
+  margin-bottom: 1.5rem;
+}
+
+.link3 {
+  font-weight: bold;
+  list-style: none;
+  border: 2px solid var(--purple);
+  border-radius: 0.2rem;
+  padding: 1rem 8rem;
+  margin-bottom: 1.5rem;
+}
+
+.link4 {
+  font-weight: bold;
+  list-style: none;
+  border: 2px solid var(--purple);
+  border-radius: 0.2rem;
+  padding: 1rem 8rem;
+  margin-bottom: 1.5rem;
+}
+
+.socialMediaLinks {
+  list-style: none;
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
